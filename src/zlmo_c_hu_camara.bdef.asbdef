@@ -1,0 +1,8 @@
+projection;
+strict ( 2 );
+
+define behavior for zlmo_c_hu_camara alias HuCamaraFria
+{
+  use create;
+  use delete;
+}

@@ -1,0 +1,32 @@
+managed implementation in class zbp_cds_lmo_014 unique;
+strict ( 2 );
+
+define behavior for zcds_lmo_014 alias _users
+persistent table zlmot016
+lock master
+authorization master ( instance )
+etag master lastchangedat
+{
+  //  create;
+    update;
+  //  delete;
+  action (features : instance) setInactive result[1] $self;
+
+  association _user_tools { create; }
+
+  mapping for zlmot016 corresponding;
+}
+
+define behavior for zcds_lmo_015 alias _user_tools
+persistent table zlmot017
+lock dependent by _user
+authorization dependent by _user
+etag master lastchangedat
+{
+  update;
+  delete;
+  field ( readonly ) Userid;
+  association _user;
+
+  mapping for zlmot017 corresponding;
+}

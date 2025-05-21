@@ -1,0 +1,3 @@
+{"version":3,"file":"formatter.js","names":["sap","ui","define","setCockpitStatusColor","Status","setCockpitStatusText","setCockpitMsgText","Message","toUpperCase","setPageNumber","PageNumber"],"sources":["formatter-dbg.js"],"mappings":"AAAAA,IAAIC,GAAGC+
+,OAAO,GACV,WACI,aAEA,MAAO,CACHC,sBAAuB,SAAUC,GAC7B,OAAQA,GACJ,IAAK,YACD,MAAO,UACX,IAAK,UACD,MAAO,UAEX,IAAK,QACL,IAAK,WACD,MAAO,QACX,QACI,MAEZ,EAEAC,qBAAsB,SAAUD,GAC5B,OAAQA,GACJ,IAAK,YACD,MAAO,aACX,IAAK,UACD,MAAO,WACX,IAAK,QACD,MAAO,OACX,IAAK,WACD,MAAO,Y+
+ACX,QACI,MAEZ,EAEAE,kBAAmB,SAAUC,GACzB,OAAOA,GAASC,gBAAkB,UAAY,GAAKD,CACvD,EAEAE,cAAe,SAAUC,GACrB,MAAO,UAAUA,EAAa,GAClC,EAER","ignoreList":[]}                                                                                                                 

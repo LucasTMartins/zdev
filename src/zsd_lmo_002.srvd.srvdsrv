@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service Definition para zcds_lmo_019'
+define service Zsd_lmo_002 {
+  expose zcds_lmo_019 as BaseFerramenta;
+}

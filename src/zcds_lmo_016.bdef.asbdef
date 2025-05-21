@@ -1,0 +1,20 @@
+projection;
+strict ( 2 );
+
+define behavior for zcds_lmo_016 //alias <alias_name>
+{
+//  use create;
+//  use update;
+//  use delete;
+
+  use action setInactive;
+  use association _user_tools { create; }
+}
+
+define behavior for zcds_lmo_017 //alias <alias_name>
+{
+  use update;
+  use delete;
+
+  use association _user;
+}

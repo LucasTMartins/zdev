@@ -1,0 +1,5 @@
+CLASS zbp_lmo_i_hu_camara DEFINITION PUBLIC ABSTRACT FINAL FOR BEHAVIOR OF zlmo_i_hu_camara.
+ENDCLASS.
+
+CLASS zbp_lmo_i_hu_camara IMPLEMENTATION.
+ENDCLASS.

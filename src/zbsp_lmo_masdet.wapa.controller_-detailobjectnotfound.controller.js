@@ -1,0 +1,2 @@
+sap.ui.define(["./BaseController"],function(e){"use strict";return e.extend("com.lit.zui5.master.detail.controller.DetailObjectNotFound",{})});                                                                                                                
+//# sourceMappingURL=DetailObjectNotFound.controller.js.map                                                                                                                                                                                                    

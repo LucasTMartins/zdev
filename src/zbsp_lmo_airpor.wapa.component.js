@@ -1,0 +1,2 @@
+sap.ui.define(["sap/suite/ui/generic/template/lib/AppComponent"],function(t){"use strict";return t.extend("com.lit.zui5.airport.analytical.Component",{metadata:{manifest:"json"}})});                                                                         
+//# sourceMappingURL=Component.js.map                                                                                                                                                                                                                          

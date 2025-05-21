@@ -1,0 +1,3 @@
+sap.ui.define(["sap/ui/core/UIComponent","br/com/lit/zui5/ne/logistics/offline/model/models"],function(i,e){"use strict";return i.extend("br.com.lit.zui5.ne.logistics.offline.Component",{metadata:{manifest:"json"},init:function(){i.prototype.init.apply(t+
+his,arguments);this.getRouter().initialize();this.setModel(e.createDeviceModel(),"device");this.USERNAME="902674";this.PASSWORD="Lit@2024"}})});                                                                                                               
+//# sourceMappingURL=Component.js.map                                                                                                                                                                                                                          

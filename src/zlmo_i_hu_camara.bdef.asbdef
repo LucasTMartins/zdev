@@ -1,0 +1,14 @@
+unmanaged implementation in class zbp_lmo_i_hu_camara unique;
+strict ( 2 );
+
+define behavior for zlmo_i_hu_camara alias HuCamaraFria
+//late numbering
+lock master
+authorization master ( instance )
+//etag master <field_name>
+{
+  field ( mandatory ) Huident;
+  field ( readonly ) DataCriacao, HoraCriacao, Usuario;
+  create;
+  delete;
+}

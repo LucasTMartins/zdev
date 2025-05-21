@@ -1,0 +1,2 @@
+{"version":3,"file":"NotFound.controller.js","names":["sap","ui","define","BaseController","extend","onInit","this","getRouter","getTarget","attachDisplay","_onNotFoundDisplayed","getModel","setProperty"],"sources":["NotFound-dbg.controller.js"],"mapping+
+s":"AAAAA,IAAIC,GAAGC,OAAO,CACV,oBACD,SAAUC,GACT,aAEA,OAAOA,EAAeC,OAAO,+CAAgD,CAEzEC,OAAQ,WACJC,KAAKC,YAAYC,UAAU,YAAYC,cAAcH,KAAKI,qBAAsBJ,KACpF,EAEAI,qBAAuB,WACnBJ,KAAKK,SAAS,WAAWC,YAAY,UAAW,YACpD,GAER","ignoreList":[]}                                   

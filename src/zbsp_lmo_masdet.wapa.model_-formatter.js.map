@@ -1,0 +1,2 @@
+{"version":3,"file":"formatter.js","names":["sap","ui","define","currencyValue","sValue","parseFloat","toFixed"],"sources":["formatter-dbg.js"],"mappings":"AAAAA,IAAIC,GAAGC,OAAO,GAAI,WACd,aAEA,MAAO,CAQHC,cAAgB,SAAUC,GACtB,IAAKA,EAAQ,CACT,MAAO,EACX,CAEA,+
+OAAOC,WAAWD,GAAQE,QAAQ,EACtC,EAER","ignoreList":[]}                                                                                                                                                                                                            

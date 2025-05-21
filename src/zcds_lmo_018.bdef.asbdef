@@ -1,0 +1,17 @@
+managed implementation in class zbp_cds_lmo_018 unique;
+strict ( 2 );
+
+define behavior for zcds_lmo_018 //alias <alias_name>
+persistent table zlmot018
+lock master
+authorization master ( instance )
+etag master Lastchangedat
+{
+  create;
+  update;
+  delete;
+
+  field( readonly , numbering : managed ) Toolsid;
+
+  mapping for ZLMOT018 corresponding;
+}

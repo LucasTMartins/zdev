@@ -1,0 +1,5 @@
+@EndUserText.label: 'Service Definition para zcds_lmo_016'
+define service Zsd_lmo_001 {
+  expose zcds_lmo_016 as BaseConhecimentoUser;
+  expose zcds_lmo_017 as UserFerramentas;
+}

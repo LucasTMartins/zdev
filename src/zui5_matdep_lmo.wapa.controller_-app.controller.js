@@ -1,0 +1,2 @@
+sap.ui.define(["sap/ui/core/mvc/Controller"],function(t){"use strict";return t.extend("com.lit.zui5.material.deposito.controller.App",{onInit:function(){}})});                                                                                                
+//# sourceMappingURL=App.controller.js.map                                                                                                                                                                                                                     

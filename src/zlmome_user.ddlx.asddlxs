@@ -1,0 +1,33 @@
+@Metadata.layer: #CORE
+@UI.headerInfo: { typeName: 'Usuário', typeNamePlural: 'Usuários' }
+annotate view zcds_lmo_016 with
+{
+  @UI.facet: [{
+                id: 'Usuarios',
+                purpose: #STANDARD,
+                type: #IDENTIFICATION_REFERENCE,
+                label: 'Usuários',
+                position: 10 },
+              {
+                id: 'Ferramentas',
+                purpose: #STANDARD,
+                type: #LINEITEM_REFERENCE,
+                label: 'Ferramentas',
+                position: 20,
+                targetElement: '_user_tools' }]
+  @UI.selectionField: [{ position: 10 }]
+  @Consumption.valueHelpDefinition: [{ entity: { name: 'zcdslmo_vh_unique_user', element: 'Userid' }}]
+  Userid;
+  @UI: { lineItem: [{ position: 10 }],
+         identification: [{ position: 10 }] }
+  Email;
+  @UI: { lineItem: [{ position: 20 }],
+         identification: [{ position: 20 }] }
+  Fullname;
+  @UI.identification: [{ dataAction: 'setInactive', type: #FOR_ACTION, label: 'Desativar msg', emphasized: true }]
+  //  @UI.hidden: true
+  Isnew;
+  @UI.hidden: true
+  Lastchangedat;
+
+}

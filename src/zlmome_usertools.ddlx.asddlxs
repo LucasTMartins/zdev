@@ -1,0 +1,34 @@
+@Metadata.layer: #CORE
+@UI.headerInfo: { typeName: 'Ferramenta', typeNamePlural: 'Ferramentas' }
+annotate view zcds_lmo_017 with
+{
+  @UI.facet: [{ id: 'Ferramentas',
+                purpose: #STANDARD,
+                type: #IDENTIFICATION_REFERENCE,
+                label: 'Ferramentas',
+                position: 10 }]
+  @UI: { lineItem: [{ position: 10 }],
+         identification: [{ position: 10 }] }
+  Userid;
+  @UI.hidden: true
+  Toolsid;
+  @UI: { lineItem: [{ position: 20, label: 'Ferramenta' }],
+         identification: [{ position: 20, label: 'Ferramenta' }] }
+  @Consumption.valueHelpDefinition: [{ entity:{ name: 'zcdslmo_vh_tools', element: 'Toolname' },
+                                       additionalBinding: [{ element: 'Toolsid', localElement: 'Toolsid', usage: #RESULT }] }]
+  Toolname;
+  @UI: { lineItem: [{ position: 30, label: 'Conhecimento' }],
+         identification: [{ position: 30, label: 'Conhecimento' }] }
+  @Consumption.valueHelpDefinition: [{ entity:{ name: 'zcdslmo_vh_geral', element: 'Ddtext' } }]
+  Knowledge;
+  @UI: { lineItem: [{ position: 40, label: 'Interesse' }],
+         identification: [{ position: 40, label: 'Interesse' }] }
+  @Consumption.valueHelpDefinition: [{ entity:{ name: 'zcdslmo_vh_geral', element: 'Ddtext' } }]
+  Interest;
+  @UI: { lineItem: [{ position: 50, label: 'Posso dar treinamento?' }],
+         identification: [{ position: 50, label: 'Posso dar treinamento?' }] }
+  Training;
+  @UI.hidden: true
+  Lastchangedat;
+
+}

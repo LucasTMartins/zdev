@@ -1,0 +1,20 @@
+<?sap.transform simple?>
+<tt:transform xmlns:tt="http://www.sap.com/transformation-templates" xmlns:ddic="http://www.sap.com/abapxml/types/dictionary" xmlns:def="http://www.sap.com/abapxml/types/defined">
+  <tt:root name="ROOT" type="?"/>
+  <tt:root name="ORDER" type="ddic:ZLMO_ORDER_T"/>
+  <tt:template>
+    <ORDER>
+      <tt:loop ref=".ORDER">
+        <ORDER>
+          <tt:attribute name="ORDER_NO" value-ref="ORDER_NO"/>
+          <ORDER_TYPE tt:value-ref="ORDER_TYPE"/>
+          <CUSTOMER>
+            <CUSTOMER_NAME tt:value-ref="CUSTOMER.CUSTOMER_NAME"/>
+            <CUSTOMER_CITY tt:value-ref="CUSTOMER.CUSTOMER_CITY"/>
+            <CUSTOMER_COUNTRY tt:value-ref="CUSTOMER.CUSTOMER_COUNTRY"/>
+          </CUSTOMER>
+        </ORDER>
+      </tt:loop>
+    </ORDER>
+  </tt:template>
+</tt:transform>

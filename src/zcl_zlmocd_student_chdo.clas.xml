@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_ZLMOCD_STUDENT_CHDO</CLSNAME>
+    <LANGU>P</LANGU>
+    <DESCRIPT>Classe gerada para objeto:ZLMOCD_STUDENT</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>OBJECTCLASS</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Classe de objetos</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>TT_ZLMOT022</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>tipo de tabela gerada: ZLMOT022</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>TY_ZLMOT022</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>categoria de linha gerada:ZLMOT022</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>WRITE</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Método de escrita para objeto:ZLMOCD_STUDENT</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>WRITE</CMPNAME>
+     <SCONAME>CHANGENUMBER</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Nº do documento de modificação</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>WRITE</CMPNAME>
+     <SCONAME>CX_CHDO_WRITE_ERROR</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Classe de exceção para método WRITE</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>WRITE</CMPNAME>
+     <SCONAME>NO_CHANGE_POINTERS</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Código: não é escrito nenhum documento</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>WRITE</CMPNAME>
+     <SCONAME>OBJECTID</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>ID da instância de objeto</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>WRITE</CMPNAME>
+     <SCONAME>OBJECT_CHANGE_INDICATOR</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Código: objeto inserido, modificado ou eliminado</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>WRITE</CMPNAME>
+     <SCONAME>PLANNED_CHANGE_NUMBER</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Nº do plano</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>WRITE</CMPNAME>
+     <SCONAME>PLANNED_OR_REAL_CHANGES</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Código, se modificações reais ou planejadas</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>WRITE</CMPNAME>
+     <SCONAME>TCODE</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Transação em que foi executada a modificação</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>WRITE</CMPNAME>
+     <SCONAME>UDATE</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Data de modificação</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>WRITE</CMPNAME>
+     <SCONAME>UPD_ZLMOT022</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Tipo da modificação</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>WRITE</CMPNAME>
+     <SCONAME>USERNAME</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Nome do autor da modificação</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>WRITE</CMPNAME>
+     <SCONAME>UTIME</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Hora da modificação</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>WRITE</CMPNAME>
+     <SCONAME>XZLMOT022</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>A tabela contém os dados modificados</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>WRITE</CMPNAME>
+     <SCONAME>YZLMOT022</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>A tabela contém dados não modificados</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,2 @@
+sap.ui.define(["../../formatter/formatter"],function(t){"use strict";return{formatter:t,onInitListReportExt:function(t){}}});                                                                                                                                  
+//# sourceMappingURL=ListReportExt.controller.js.map                                                                                                                                                                                                           

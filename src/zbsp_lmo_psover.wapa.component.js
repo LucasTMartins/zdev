@@ -1,0 +1,2 @@
+sap.ui.define(["sap/ovp/app/Component"],function(e){"use strict";return e.extend("com.lit.zui5.petshop.overview.Component",{metadata:{manifest:"json"}})});                                                                                                    
+//# sourceMappingURL=Component.js.map                                                                                                                                                                                                                          

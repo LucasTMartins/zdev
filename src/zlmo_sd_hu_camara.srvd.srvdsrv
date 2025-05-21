@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service Definition para ZLMO_C_HU_CAMARA'
+define service Zlmo_sd_hu_camara {
+  expose zlmo_c_hu_camara as HuCam;
+}

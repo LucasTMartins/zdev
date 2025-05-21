@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CHDO" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <CHDO>
+    <REPORTS_GENERATED>
+     <TCDRPS>
+      <OBJECT>ZLMOCD_STUDENT</OBJECT>
+      <REPORTNAME>*CLASS_GEN*</REPORTNAME>
+      <ARBGEB>CD</ARBGEB>
+      <FEHLERNR>600</FEHLERNR>
+     </TCDRPS>
+    </REPORTS_GENERATED>
+    <OBJECTS>
+     <TCDOBS>
+      <OBJECT>ZLMOCD_STUDENT</OBJECT>
+      <TABNAME>ZLMOT022</TABNAME>
+      <MULTCASE>X</MULTCASE>
+      <DOCUDEL>X</DOCUDEL>
+      <DOCUINS>X</DOCUINS>
+      <DOCUD_NOIF>X</DOCUD_NOIF>
+     </TCDOBS>
+    </OBJECTS>
+    <OBJECTS_TEXT>
+     <TCDOBTS>
+      <SPRAS>P</SPRAS>
+      <OBJECT>ZLMOCD_STUDENT</OBJECT>
+      <OBTEXT>Documento de alterações de estudantes</OBTEXT>
+     </TCDOBTS>
+    </OBJECTS_TEXT>
+   </CHDO>
+  </asx:values>
+ </asx:abap>
+</abapGit>

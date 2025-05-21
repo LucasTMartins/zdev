@@ -1,0 +1,11 @@
+@EndUserText.label: 'Objeto de Autorização de CDS'
+@MappingRole: true
+define role ZCDS_LMO_009 {
+    grant 
+        select
+            on
+                zcds_lmo_003
+                    where
+                        (Carrid) = aspect pfcg_auth(ZTEST_AUTH, CARRID, ACTVT = '03');
+                        
+}

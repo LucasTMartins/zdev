@@ -1,0 +1,2 @@
+sap.ui.define(["sap/ui/core/mvc/Controller"],function(n){"use strict";return n.extend("br.com.lit.zui5.ne.logistics.offline.controller.App",{onInit:function(){}})});                                                                                          
+//# sourceMappingURL=App.controller.js.map                                                                                                                                                                                                                     

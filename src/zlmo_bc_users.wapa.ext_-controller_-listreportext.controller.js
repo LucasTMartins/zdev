@@ -1,0 +1,2 @@
+sap.ui.define(["sap/m/MessageToast"],function(e){"use strict";return{onInitSmartFilterBarExtension:function(e){var t=sap.ushell.Container.getService("UserInfo").getId,i={Userid:t};this.byId("listReportFilter").setFilterData(i)}}});                        
+//# sourceMappingURL=ListReportExt.controller.js.map                                                                                                                                                                                                           

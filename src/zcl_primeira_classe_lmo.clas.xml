@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_PRIMEIRA_CLASSE_LMO</CLSNAME>
+    <LANGU>P</LANGU>
+    <DESCRIPT>Classe cálculo</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>001</KEY>
+     <ENTRY>Operador 2 não pode ser 0</ENTRY>
+     <LENGTH>26</LENGTH>
+    </item>
+   </TPOOL>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>NO_VALUE</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Valor maior que o operador 1</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>ADICIONAR</CMPNAME>
+     <SCONAME>IM_OPERADOR1</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Nº inteiro com sinal 4 bytes</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>ADICIONAR</CMPNAME>
+     <SCONAME>IM_OPERADOR2</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Nº inteiro com sinal 4 bytes</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>ADICIONAR</CMPNAME>
+     <SCONAME>RE_RESULT</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Nº inteiro com sinal 4 bytes</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DIVIDIR</CMPNAME>
+     <SCONAME>IM_OPERADOR1</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Nº inteiro com sinal 4 bytes</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DIVIDIR</CMPNAME>
+     <SCONAME>IM_OPERADOR2</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Nº inteiro com sinal 4 bytes</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DIVIDIR</CMPNAME>
+     <SCONAME>RE_RESULT</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Nº inteiro com sinal 4 bytes</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MULTIPLICAR</CMPNAME>
+     <SCONAME>IM_OPERADOR1</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Nº inteiro com sinal 4 bytes</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MULTIPLICAR</CMPNAME>
+     <SCONAME>IM_OPERADOR2</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Nº inteiro com sinal 4 bytes</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MULTIPLICAR</CMPNAME>
+     <SCONAME>RE_RESULT</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Nº inteiro com sinal 4 bytes</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>NO_VALUE</CMPNAME>
+     <SCONAME>IM_OPERADOR1</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Nº inteiro com sinal 4 bytes</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>NO_VALUE</CMPNAME>
+     <SCONAME>IM_OPERADOR2</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Nº inteiro com sinal 4 bytes</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SUBTRAIR</CMPNAME>
+     <SCONAME>IM_OPERADOR1</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Nº inteiro com sinal 4 bytes</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SUBTRAIR</CMPNAME>
+     <SCONAME>IM_OPERADOR2</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Nº inteiro com sinal 4 bytes</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SUBTRAIR</CMPNAME>
+     <SCONAME>RE_RESULT</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Nº inteiro com sinal 4 bytes</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

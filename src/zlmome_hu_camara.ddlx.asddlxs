@@ -1,0 +1,23 @@
+@Metadata.layer: #CUSTOMER
+annotate view zlmo_i_hu_camara
+    with 
+{
+    @UI.facet: [{ id: 'UnidadeComercial',
+                purpose: #STANDARD,
+                type: #IDENTIFICATION_REFERENCE,
+                label: 'Unidade Comercial',
+                position: 10 }]
+
+    @UI: { lineItem: [{ position: 10, label: 'HU' }],
+           identification: [{ position: 10, label: 'HU' }] }
+    Huident;
+    @UI: { lineItem: [{ position: 20, label: 'Data de Criação' }],
+           identification: [{ position: 20, label: 'Data de Criação' }] }
+    DataCriacao;
+    @UI: { lineItem: [{ position: 30, label: 'Horário de Criação' }],
+           identification: [{ position: 30, label: 'Horário de Criação' }] }
+    HoraCriacao;
+    @UI: { lineItem: [{ position: 40, label: 'Usuário' }],
+           identification: [{ position: 40, label: 'Usuário' }] }
+    Usuario;
+}
